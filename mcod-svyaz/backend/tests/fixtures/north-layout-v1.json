@@ -1,0 +1,136 @@
+{
+  "width_m": 12,
+  "depth_m": 3,
+  "height_m": 3,
+  "receiver_height_m": 1.35,
+  "obstacles": [
+    {
+      "id": "rack-1",
+      "label": "Стойка 1",
+      "kind": "rack",
+      "x": 1.65,
+      "y": 0.17,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    },
+    {
+      "id": "rack-2",
+      "label": "Стойка 2",
+      "kind": "rack",
+      "x": 3.05,
+      "y": 0.17,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    },
+    {
+      "id": "rack-3",
+      "label": "Стойка 3",
+      "kind": "rack",
+      "x": 4.45,
+      "y": 0.17,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    },
+    {
+      "id": "rack-4",
+      "label": "Стойка 4",
+      "kind": "rack",
+      "x": 7.0,
+      "y": 2.13,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    },
+    {
+      "id": "rack-5",
+      "label": "Стойка 5",
+      "kind": "rack",
+      "x": 8.4,
+      "y": 2.13,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    },
+    {
+      "id": "rack-6",
+      "label": "Стойка 6",
+      "kind": "rack",
+      "x": 9.8,
+      "y": 2.13,
+      "z": 0,
+      "width": 1.05,
+      "depth": 0.7,
+      "height": 2.2,
+      "loss_db": 18
+    }
+  ],
+  "panels": [
+    {
+      "id": "panel-a",
+      "label": "Панель А",
+      "x": 0.6,
+      "y": 1.5,
+      "z": 2.65,
+      "azimuth_deg": 0,
+      "gain_dbi": 6,
+      "beamwidth_deg": 100,
+      "back_loss_db": 22,
+      "cable_loss_db": 3,
+      "enabled": true
+    },
+    {
+      "id": "panel-b",
+      "label": "Панель Б",
+      "x": 11.4,
+      "y": 1.5,
+      "z": 2.65,
+      "azimuth_deg": 180,
+      "gain_dbi": 6,
+      "beamwidth_deg": 100,
+      "back_loss_db": 22,
+      "cable_loss_db": 4,
+      "enabled": true
+    }
+  ],
+  "donor": {
+    "id": "donor",
+    "label": "Донорная антенна",
+    "x": 0.8,
+    "y": -0.85,
+    "z": 3.3,
+    "azimuth_deg": 285,
+    "gain_dbi": 11,
+    "beamwidth_deg": 55,
+    "back_loss_db": 25,
+    "cable_loss_db": 2,
+    "enabled": true
+  },
+  "repeater": {
+    "x": 0.45,
+    "y": 0.4,
+    "z": 1.4
+  },
+  "splitter": {
+    "x": 0.85,
+    "y": 0.4,
+    "z": 1.9
+  },
+  "gsm_antenna": {
+    "x": 11.2,
+    "y": -0.85,
+    "z": 3.1
+  }
+}

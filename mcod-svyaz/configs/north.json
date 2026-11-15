@@ -1,0 +1,906 @@
+{
+  "label": "МЦОД Север",
+  "profile": {
+    "id": "demo-b7",
+    "label": "LTE Band 7",
+    "ul_band": {
+      "low_mhz": 2500,
+      "high_mhz": 2570
+    },
+    "dl_band": {
+      "low_mhz": 2620,
+      "high_mhz": 2690
+    },
+    "ul_mhz": 2530,
+    "dl_mhz": 2650,
+    "bandwidth_mhz": 20
+  },
+  "layout": {
+    "width_m": 13.64,
+    "depth_m": 9.54,
+    "height_m": 3,
+    "receiver_height_m": 1.35,
+    "obstacles": [
+      {
+        "id": "row-1-1",
+        "label": "ТШ1.1",
+        "kind": "rack",
+        "x": 1.44,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-2",
+        "label": "ТШ1.2",
+        "kind": "rack",
+        "x": 2.045,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-3",
+        "label": "К1",
+        "kind": "equipment",
+        "x": 2.65,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-4",
+        "label": "ТШ1.3",
+        "kind": "rack",
+        "x": 2.965,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-5",
+        "label": "К2",
+        "kind": "equipment",
+        "x": 3.57,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-6",
+        "label": "ТШ1.4",
+        "kind": "rack",
+        "x": 3.885,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-7",
+        "label": "К3",
+        "kind": "equipment",
+        "x": 4.49,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-8",
+        "label": "ТШ1.5",
+        "kind": "rack",
+        "x": 4.805,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-9",
+        "label": "ТШ1.6",
+        "kind": "rack",
+        "x": 5.41,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-10",
+        "label": "К4",
+        "kind": "equipment",
+        "x": 6.015,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-11",
+        "label": "ТШ1.7",
+        "kind": "rack",
+        "x": 6.33,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.8,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-12",
+        "label": "ТШ1.8",
+        "kind": "rack",
+        "x": 7.135,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-13",
+        "label": "К5",
+        "kind": "equipment",
+        "x": 7.74,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-14",
+        "label": "ТШ1.9",
+        "kind": "rack",
+        "x": 8.055,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-15",
+        "label": "К6",
+        "kind": "equipment",
+        "x": 8.66,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-16",
+        "label": "ТШ1.10",
+        "kind": "rack",
+        "x": 8.975,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-17",
+        "label": "К7",
+        "kind": "equipment",
+        "x": 9.58,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-18",
+        "label": "ТШ1.11",
+        "kind": "rack",
+        "x": 9.895,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-19",
+        "label": "К8",
+        "kind": "equipment",
+        "x": 10.5,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-1-20",
+        "label": "ТШ1.12",
+        "kind": "rack",
+        "x": 10.815,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-1-21",
+        "label": "ТШ1.13",
+        "kind": "rack",
+        "x": 11.42,
+        "y": 4.42,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-1",
+        "label": "ТШ2.1",
+        "kind": "rack",
+        "x": 0.83,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-2",
+        "label": "К9",
+        "kind": "equipment",
+        "x": 1.435,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-3",
+        "label": "ТШ2.2",
+        "kind": "rack",
+        "x": 1.75,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-4",
+        "label": "ТШ2.3",
+        "kind": "rack",
+        "x": 2.355,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-5",
+        "label": "К10",
+        "kind": "equipment",
+        "x": 2.96,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-6",
+        "label": "ТШ2.4",
+        "kind": "rack",
+        "x": 3.275,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-7",
+        "label": "К11",
+        "kind": "equipment",
+        "x": 3.88,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-8",
+        "label": "ТШ2.5",
+        "kind": "rack",
+        "x": 4.195,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-9",
+        "label": "К12",
+        "kind": "equipment",
+        "x": 4.8,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-10",
+        "label": "ТШ2.6",
+        "kind": "rack",
+        "x": 5.115,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-11",
+        "label": "ТШ2.7",
+        "kind": "rack",
+        "x": 5.72,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-12",
+        "label": "К13",
+        "kind": "equipment",
+        "x": 6.325,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-13",
+        "label": "ТШ2.8",
+        "kind": "rack",
+        "x": 6.64,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.8,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-14",
+        "label": "К14",
+        "kind": "equipment",
+        "x": 7.445,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-15",
+        "label": "ТШ2.9",
+        "kind": "rack",
+        "x": 7.76,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-16",
+        "label": "ТШ2.10",
+        "kind": "rack",
+        "x": 8.365,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-17",
+        "label": "К15",
+        "kind": "equipment",
+        "x": 8.97,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-18",
+        "label": "ТШ2.11",
+        "kind": "rack",
+        "x": 9.285,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-19",
+        "label": "К16",
+        "kind": "equipment",
+        "x": 9.89,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.3,
+        "depth": 1.2,
+        "height": 2.0,
+        "loss_db": 9
+      },
+      {
+        "id": "row-2-20",
+        "label": "ТШ2.12",
+        "kind": "rack",
+        "x": 10.205,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-21",
+        "label": "ТШ2.13",
+        "kind": "rack",
+        "x": 10.81,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "row-2-22",
+        "label": "ТШ2.14",
+        "kind": "rack",
+        "x": 11.415,
+        "y": 7.17,
+        "z": 0,
+        "width": 0.6,
+        "depth": 1.2,
+        "height": 2.262,
+        "loss_db": 18
+      },
+      {
+        "id": "wall-hall-west",
+        "label": "Перегородка зала",
+        "kind": "partition",
+        "x": 0,
+        "y": 2.94,
+        "z": 0,
+        "width": 11.96,
+        "depth": 0.36,
+        "height": 3,
+        "loss_db": 16
+      },
+      {
+        "id": "wall-hall-east",
+        "label": "Перегородка зала",
+        "kind": "partition",
+        "x": 12.99,
+        "y": 2.94,
+        "z": 0,
+        "width": 0.65,
+        "depth": 0.36,
+        "height": 3,
+        "loss_db": 16
+      },
+      {
+        "id": "wall-energy-north",
+        "label": "Перегородка энергомодуля",
+        "kind": "partition",
+        "x": 10.145,
+        "y": 0,
+        "z": 0,
+        "width": 0.05,
+        "depth": 0.44,
+        "height": 3,
+        "loss_db": 12
+      },
+      {
+        "id": "wall-energy-south",
+        "label": "Перегородка энергомодуля",
+        "kind": "partition",
+        "x": 10.145,
+        "y": 1.44,
+        "z": 0,
+        "width": 0.05,
+        "depth": 1.5,
+        "height": 3,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-input",
+        "label": "ВРУ",
+        "kind": "equipment",
+        "x": 0,
+        "y": 0.13,
+        "z": 0,
+        "width": 0.81,
+        "depth": 2.8,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-guaranteed",
+        "label": "ЩГП",
+        "kind": "equipment",
+        "x": 0.83,
+        "y": 2.14,
+        "z": 0,
+        "width": 1.2,
+        "depth": 0.8,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-distribution",
+        "label": "ЩРБП",
+        "kind": "equipment",
+        "x": 2.03,
+        "y": 2.14,
+        "z": 0,
+        "width": 3,
+        "depth": 0.8,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-panels",
+        "label": "ЩР",
+        "kind": "equipment",
+        "x": 5.07,
+        "y": 2.69,
+        "z": 0,
+        "width": 1.44,
+        "depth": 0.25,
+        "height": 0.5,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-battery",
+        "label": "ЩБ",
+        "kind": "equipment",
+        "x": 7.19,
+        "y": 2.04,
+        "z": 0,
+        "width": 2.05,
+        "depth": 0.9,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "energy-ups",
+        "label": "ИБП",
+        "kind": "equipment",
+        "x": 9.24,
+        "y": 1.14,
+        "z": 0,
+        "width": 0.8,
+        "depth": 1,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "entry-cabinets",
+        "label": "Шкафы тамбура",
+        "kind": "equipment",
+        "x": 13.13,
+        "y": 0.31,
+        "z": 0,
+        "width": 0.51,
+        "depth": 2.6,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "hall-cabinets-north",
+        "label": "Щиты",
+        "kind": "equipment",
+        "x": 13.2,
+        "y": 3.47,
+        "z": 0,
+        "width": 0.44,
+        "depth": 2.58,
+        "height": 2,
+        "loss_db": 12
+      },
+      {
+        "id": "hall-cabinets-south",
+        "label": "Щиты",
+        "kind": "equipment",
+        "x": 13.2,
+        "y": 6.85,
+        "z": 0,
+        "width": 0.44,
+        "depth": 2.63,
+        "height": 2,
+        "loss_db": 12
+      }
+    ],
+    "panels": [
+      {
+        "id": "panel-a",
+        "label": "Панель А",
+        "x": 0.38,
+        "y": 6.4,
+        "z": 2.65,
+        "azimuth_deg": 0,
+        "gain_dbi": 6,
+        "beamwidth_deg": 100,
+        "back_loss_db": 22,
+        "cable_loss_db": 3,
+        "enabled": true
+      },
+      {
+        "id": "panel-b",
+        "label": "Панель Б",
+        "x": 13.05,
+        "y": 6.4,
+        "z": 2.65,
+        "azimuth_deg": 180,
+        "gain_dbi": 6,
+        "beamwidth_deg": 100,
+        "back_loss_db": 22,
+        "cable_loss_db": 4,
+        "enabled": true
+      }
+    ],
+    "donor": {
+      "id": "donor",
+      "label": "Донорная антенна",
+      "x": 0.8,
+      "y": -0.85,
+      "z": 3.3,
+      "azimuth_deg": 285,
+      "gain_dbi": 11,
+      "beamwidth_deg": 55,
+      "back_loss_db": 25,
+      "cable_loss_db": 2,
+      "enabled": true
+    },
+    "repeater": {
+      "x": 0.6,
+      "y": 3.65,
+      "z": 1.4
+    },
+    "splitter": {
+      "x": 0.95,
+      "y": 3.65,
+      "z": 1.9
+    },
+    "gsm_antenna": {
+      "x": 12.8,
+      "y": -0.85,
+      "z": 3.1
+    },
+    "source": "Чертёж размещения оборудования, 1:50",
+    "rooms": [
+      {
+        "id": "energy",
+        "label": "Энергомодуль",
+        "x": 0,
+        "y": 0,
+        "width": 10.145,
+        "depth": 2.94,
+        "drawing_area_m2": 29.8
+      },
+      {
+        "id": "vestibule",
+        "label": "Технологический тамбур",
+        "x": 10.195,
+        "y": 0,
+        "width": 3.445,
+        "depth": 2.94,
+        "drawing_area_m2": 10.1
+      },
+      {
+        "id": "hall",
+        "label": "Аппаратный зал",
+        "x": 0,
+        "y": 3.3,
+        "width": 13.64,
+        "depth": 6.24,
+        "drawing_area_m2": 84.8
+      }
+    ]
+  },
+  "radio": {
+    "donor_rsrp_dbm": -80,
+    "donor_rssi_dbm": -43,
+    "facade_rsrp_dbm": -86,
+    "envelope_loss_db": 32,
+    "splitter_loss_db": 4,
+    "path_exponent": 2.3,
+    "phone_power_dbm": 23,
+    "outdoor_path_loss_db": 133,
+    "base_receiver_threshold_dbm": -108,
+    "coverage_threshold_dbm": -105
+  },
+  "repeater": {
+    "enabled": true,
+    "mode": "auto",
+    "required_margin_db": 15,
+    "dl": {
+      "requested_gain_db": 55,
+      "max_gain_db": 65,
+      "max_output_dbm": 17,
+      "isolation_db": 79
+    },
+    "ul": {
+      "requested_gain_db": 48,
+      "max_gain_db": 62,
+      "max_output_dbm": 17,
+      "isolation_db": 76
+    }
+  },
+  "filters": [
+    {
+      "id": "donor-filter",
+      "label": "Донорный фильтр",
+      "side": "donor",
+      "healthy": true,
+      "passbands": [
+        {
+          "low_mhz": 2500,
+          "high_mhz": 2570
+        },
+        {
+          "low_mhz": 2620,
+          "high_mhz": 2690
+        }
+      ],
+      "insertion_loss_db": 1,
+      "stopbands": [
+        {
+          "low_mhz": 880,
+          "high_mhz": 960
+        },
+        {
+          "low_mhz": 1710,
+          "high_mhz": 1880
+        },
+        {
+          "low_mhz": 3300,
+          "high_mhz": 3350
+        }
+      ],
+      "stop_loss_db": 28,
+      "failed_loss_db": 0
+    },
+    {
+      "id": "service-filter",
+      "label": "Выходной фильтр",
+      "side": "service",
+      "healthy": true,
+      "passbands": [
+        {
+          "low_mhz": 2500,
+          "high_mhz": 2570
+        },
+        {
+          "low_mhz": 2620,
+          "high_mhz": 2690
+        }
+      ],
+      "insertion_loss_db": 2,
+      "stopbands": [
+        {
+          "low_mhz": 880,
+          "high_mhz": 960
+        },
+        {
+          "low_mhz": 1710,
+          "high_mhz": 1880
+        },
+        {
+          "low_mhz": 3300,
+          "high_mhz": 3350
+        }
+      ],
+      "stop_loss_db": 35,
+      "failed_loss_db": 0
+    }
+  ],
+  "gsm_criteria": {
+    "protected_bands": [
+      {
+        "low_mhz": 935,
+        "high_mhz": 960
+      },
+      {
+        "low_mhz": 1805,
+        "high_mhz": 1880
+      }
+    ],
+    "channels": [
+      {
+        "center_mhz": 950,
+        "bandwidth_khz": 200
+      },
+      {
+        "center_mhz": 1840,
+        "bandwidth_khz": 200
+      }
+    ],
+    "interference_limit_dbm": -104,
+    "blocker_limit_dbm": -32,
+    "coupling_loss_db": 52
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "label": "МЦОД Восток",
+  "profile": {
+    "id": "demo-b7",
+    "label": "LTE Band 7",
+    "ul_band": {
+      "low_mhz": 2500,
+      "high_mhz": 2570
+    },
+    "dl_band": {
+      "low_mhz": 2620,
+      "high_mhz": 2690
+    },
+    "ul_mhz": 2530,
+    "dl_mhz": 2650,
+    "bandwidth_mhz": 20
+  },
+  "layout": {
+    "width_m": 10,
+    "depth_m": 3.5,
+    "height_m": 3,
+    "receiver_height_m": 1.35,
+    "obstacles": [
+      {
+        "id": "rack-1",
+        "label": "Стойка 1",
+        "kind": "rack",
+        "x": 1.65,
+        "y": 0.17,
+        "z": 0,
+        "width": 1.05,
+        "depth": 0.7,
+        "height": 2.2,
+        "loss_db": 18
+      },
+      {
+        "id": "rack-2",
+        "label": "Стойка 2",
+        "kind": "rack",
+        "x": 3.05,
+        "y": 0.17,
+        "z": 0,
+        "width": 1.05,
+        "depth": 0.7,
+        "height": 2.2,
+        "loss_db": 18
+      },
+      {
+        "id": "rack-3",
+        "label": "Стойка 3",
+        "kind": "rack",
+        "x": 4.45,
+        "y": 0.17,
+        "z": 0,
+        "width": 1.05,
+        "depth": 0.7,
+        "height": 2.2,
+        "loss_db": 18
+      },
+      {
+        "id": "rack-4",
+        "label": "Стойка 4",
+        "kind": "rack",
+        "x": 7.0,
+        "y": 2.13,
+        "z": 0,
+        "width": 1.05,
+        "depth": 0.7,
+        "height": 2.2,
+        "loss_db": 18
+      },
+      {
+        "id": "rack-5",
+        "label": "Стойка 5",
+        "kind": "rack",
+        "x": 8.4,
+        "y": 2.13,
+        "z": 0,
+        "width": 1.05,
+        "depth": 0.7,
+        "height": 2.2,
+        "loss_db": 18
+      }
+    ],
+    "panels": [
+      {
+        "id": "panel-a",
+        "label": "Панель А",
+        "x": 0.6,
+        "y": 1.5,
+        "z": 2.65,
+        "azimuth_deg": 0,
+        "gain_dbi": 6,
+        "beamwidth_deg": 100,
+        "back_loss_db": 22,
+        "cable_loss_db": 3,
+        "enabled": true
+      },
+      {
+        "id": "panel-b",
+        "label": "Панель Б",
+        "x": 9.5,
+        "y": 1.85,
+        "z": 2.65,
+        "azimuth_deg": 180,
+        "gain_dbi": 6,
+        "beamwidth_deg": 100,
+        "back_loss_db": 22,
+        "cable_loss_db": 4,
+        "enabled": true
+      }
+    ],
+    "donor": {
+      "id": "donor",
+      "label": "Донорная антенна",
+      "x": 0.8,
+      "y": -0.85,
+      "z": 3.3,
+      "azimuth_deg": 285,
+      "gain_dbi": 11,
+      "beamwidth_deg": 55,
+      "back_loss_db": 25,
+      "cable_loss_db": 2,
+      "enabled": true
+    },
+    "repeater": {
+      "x": 0.45,
+      "y": 0.4,
+      "z": 1.4
+    },
+    "splitter": {
+      "x": 0.85,
+      "y": 0.4,
+      "z": 1.9
+    },
+    "gsm_antenna": {
+      "x": 9.4,
+      "y": -0.85,
+      "z": 3.1
+    }
+  },
+  "radio": {
+    "donor_rsrp_dbm": -87,
+    "donor_rssi_dbm": -48,
+    "facade_rsrp_dbm": -91,
+    "envelope_loss_db": 36,
+    "splitter_loss_db": 4,
+    "path_exponent": 2.65,
+    "phone_power_dbm": 23,
+    "outdoor_path_loss_db": 138,
+    "base_receiver_threshold_dbm": -108,
+    "coverage_threshold_dbm": -105
+  },
+  "repeater": {
+    "enabled": true,
+    "mode": "auto",
+    "required_margin_db": 15,
+    "dl": {
+      "requested_gain_db": 55,
+      "max_gain_db": 65,
+      "max_output_dbm": 17,
+      "isolation_db": 68
+    },
+    "ul": {
+      "requested_gain_db": 48,
+      "max_gain_db": 62,
+      "max_output_dbm": 17,
+      "isolation_db": 76
+    }
+  },
+  "filters": [
+    {
+      "id": "donor-filter",
+      "label": "Донорный фильтр",
+      "side": "donor",
+      "healthy": true,
+      "passbands": [
+        {
+          "low_mhz": 2500,
+          "high_mhz": 2570
+        },
+        {
+          "low_mhz": 2620,
+          "high_mhz": 2690
+        }
+      ],
+      "insertion_loss_db": 1,
+      "stopbands": [
+        {
+          "low_mhz": 880,
+          "high_mhz": 960
+        },
+        {
+          "low_mhz": 1710,
+          "high_mhz": 1880
+        },
+        {
+          "low_mhz": 3300,
+          "high_mhz": 3350
+        }
+      ],
+      "stop_loss_db": 28,
+      "failed_loss_db": 0
+    },
+    {
+      "id": "service-filter",
+      "label": "Выходной фильтр",
+      "side": "service",
+      "healthy": true,
+      "passbands": [
+        {
+          "low_mhz": 2500,
+          "high_mhz": 2570
+        },
+        {
+          "low_mhz": 2620,
+          "high_mhz": 2690
+        }
+      ],
+      "insertion_loss_db": 2,
+      "stopbands": [
+        {
+          "low_mhz": 880,
+          "high_mhz": 960
+        },
+        {
+          "low_mhz": 1710,
+          "high_mhz": 1880
+        },
+        {
+          "low_mhz": 3300,
+          "high_mhz": 3350
+        }
+      ],
+      "stop_loss_db": 35,
+      "failed_loss_db": 0
+    }
+  ],
+  "gsm_criteria": {
+    "protected_bands": [
+      {
+        "low_mhz": 935,
+        "high_mhz": 960
+      },
+      {
+        "low_mhz": 1805,
+        "high_mhz": 1880
+      }
+    ],
+    "channels": [
+      {
+        "center_mhz": 950,
+        "bandwidth_khz": 200
+      },
+      {
+        "center_mhz": 1840,
+        "bandwidth_khz": 200
+      }
+    ],
+    "interference_limit_dbm": -104,
+    "blocker_limit_dbm": -32,
+    "coupling_loss_db": 52
+  }
+}
